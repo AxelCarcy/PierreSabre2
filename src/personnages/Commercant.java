@@ -6,10 +6,6 @@ public class Commercant extends Humain {
 		super(nom, boissonFav, argentPossede);
 	}
 	
-	private String nom;
-	private String boissonFav;
-	private int argentPossede;
-	
 	public void seFaireExtorquer() {
 		parler("J'ai tout perdu! Le monde est trop injuste... ");
 		argentPossede = 0;

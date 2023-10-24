@@ -46,12 +46,12 @@ public class Humain {
 		}
 	}
 	
-	public void gagnerArgent (int argentGagner) {
-		argentPossede += argentGagner;
+	protected void gagnerArgent (int gain) {
+		argentPossede += gain;
 	}
 	
-	public void perdreArgent (int argentPerdu) {
-		argentPossede -= argentPerdu;
+	protected void perdreArgent (int perte) {
+		argentPossede -= perte;
 	}
 	
 	
