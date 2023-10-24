@@ -21,7 +21,7 @@ public class Humain {
 	}
 	
 	
-	protected void parler(String texte) {
+	public void parler(String texte) {
 		System.out.println("("+ nom +") - " + texte);
 	}
 	
@@ -30,7 +30,7 @@ public class Humain {
 	}
 	
 	public void boire() {
-		parler("Mmmm, un bon verre de " + boissonFav + "! GLOUPS !");
+		parler("Mmmm, un bon verre de " + boissonFav + " ! GLOUPS !");
 	}
 	
 	public void acheter(String bien, int prix) {
